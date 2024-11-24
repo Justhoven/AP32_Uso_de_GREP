@@ -5,5 +5,6 @@
 5.  cat anillo.txt | grep ^Frodo        (^ = muestra líneas que empiecen por Frodo)
 6.  cat anillo.txt | grep Mordor.$      ($ = muestra lineas que acaben por Mordor. (ojo, si acaban con punto y no se pone, no las encontrará, hay que ponerlo))
 7.  cat anillo.txt | grep -w [qf]ue     ([] = caracteres que podrían ser primera letra, seguido de ue)
-8.  cat anillo.txt | grep -A 2 elfo     (-A en mayus es AFTER, y 2 lineas, muestra 2 lineas despues de elfo)
-9.  cat anillo.txt | grep -iB 1 compañía    (-B en mayus es BEFORE, 1 linea antes. LA Ñ Y LA TILDE NO LAS PUDE PONER)
+8.  cat anillo.txt | grep -A 2 elfo         (-A en mayus es AFTER, y 2 lineas, muestra 2 lineas despues de elfo)
+9.  cat anillo.txt | grep -iB 1 compañía            (-B en mayus es BEFORE, 1 linea antes. LA Ñ Y LA TILDE NO LAS PUDE PONER)
+10. cat anillo.txt | grep -e Gandalf -e Gris        (-e para buscar más de una ocurrencia, se pone en cada una)
