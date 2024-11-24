@@ -3,3 +3,4 @@
 3.  cat anillo.txt | grep -w anillo     (-w para vetar que tenga nada detrás o delante (salvo un punto), solo "anillo")
 4.  cat anillo.txt | grep -nviw anillo  (-n para el número, -v para lineas en las que no aparezca)
 5.  cat anillo.txt | grep ^Frodo        (^ = muestra líneas que empiecen por Frodo)
+6.  cat anillo.txt | grep Mordor.$      ($ = muestra lineas que acaben por Mordor. (ojo, si acaban con punto y no se pone, no las encontrará, hay que ponerlo))
