@@ -1,2 +1,3 @@
-1.  grep agujero anillo.txt         (-w para quitar plurales y demases???)
-2.  grep -i agujero anillo.txt      (-i para ignorar mayus/minus)
+1.  cat anillo.txt | grep agujero       (también vale grep agujero anillo.txt, muestra agujero, agujeroS, 2agujeros... pero no si tiene mayus)
+2.  cat anillo.txt | grep -i agujero    (-i para ignorar mayus/minus)
+3.  cat anillo.txt | grep -w anillo     (-w para vetar que tenga nada detrás o delante (salvo un punto), solo "anillo")
