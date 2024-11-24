@@ -1,1 +1,2 @@
-1.  grep agujero anillo.txt
+1.  grep agujero anillo.txt         (-w para quitar plurales y demases???)
+2.  grep -i agujero anillo.txt      (-i para ignorar mayus/minus)
